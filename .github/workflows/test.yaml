@@ -15,7 +15,7 @@ jobs:
           tool_version: 1.5.7
       - name: Test terraform
         run: |
-          ls -lah $GITHUB_WORKSPACE
+          ls -lah $GITHUB_WORKSPACE/.tenv
           ls -lah ~/.tenv
           ls -lah .tenv
           terraform version
