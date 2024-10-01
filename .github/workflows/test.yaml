@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: tofuutils/setup-tenv@main
-
+        with:
+          tenv_version: 3.2.2
       - name: Test
         run: |
           tenv version
