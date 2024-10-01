@@ -1,0 +1,17 @@
+name: "Workflow Example"
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: tofuutils/tenv-github-action@main
+        with:
+          tool_name: terraform
+          tool_version: 1.5.7
+      - name: Test it
+        run: terraform version
