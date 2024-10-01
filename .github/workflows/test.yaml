@@ -9,14 +9,12 @@ jobs:
   example:
     runs-on: ubuntu-20.04
     steps:
-    steps:
       - uses: tofuutils/setup-tenv@main
 
       - name: Test
         run: |
           tenv version
           tenv tf install latest
-
 
       # - uses: tofuutils/tenv-github-action@main
       #   with:
