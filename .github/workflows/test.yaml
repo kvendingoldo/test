@@ -14,7 +14,10 @@ jobs:
           tool_name: terraform
           tool_version: 1.5.7
       - name: Test terraform
-        run: terraform version
+        run: |
+          ls -lah ~/.tenv
+          ls -lah .tenv
+          terraform version
 
       - uses: tofuutils/tenv-github-action@main
         with:
