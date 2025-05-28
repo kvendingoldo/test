@@ -35,7 +35,7 @@ jobs:
 
       - name: Set application version
         id: set_version
-        uses: kvendingoldo/semver-action@v1.21.0-alpha1
+        uses: kvendingoldo/semver-action@v1.21.0-alpha2
         with:
           auto_release_for_branches: main
           enable_github_releases: true
