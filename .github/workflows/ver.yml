@@ -35,7 +35,7 @@ jobs:
 
       - name: Set application version
         id: set_version
-        uses: kvendingoldo/git-flow-action@v0.0.1-alpha4
+        uses: kvendingoldo/git-flow-action@v0.0.1-alpha5
         with:
           tag_prefix_release: "v"
           auto_release_branches: ""
