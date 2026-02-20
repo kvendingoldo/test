@@ -1,3 +1,8 @@
+## v8.8.0 - 2026-02-20
+### Bug Fixes
+- 29a76c4 fix: abc
+- 9abffa7 fix: gh
+
 ## v8.7.0 - 2026-02-20
 ### Features
 - cfa9c59 feat: test
