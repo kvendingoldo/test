@@ -35,12 +35,11 @@ jobs:
 
       - name: Set application version
         id: set_version
-        uses: kvendingoldo/git-flow-action@v1.2.0-alpha7
+        uses: kvendingoldo/git-flow-action@v2.7.0
         with:
           tag_prefix_release: "v"
           auto_release_branches: "main"
           # Activate the ability to create GitHub releases
           github_token: "${{ secrets.GITHUB_TOKEN }}"
-
 # main: release tag + release branch + gh release + rc commit
 # release: release tag + gh release
